@@ -11,24 +11,29 @@
 </head>
 
 <body>
-
-
-
-    <div id="start-screen">
+        <div id="start-screen">
         <h1>Wednesday's Quiz Game</h1>
-        <p>a breif discription of the quiz</p>
+        <p>Can you guess what day it is?  Just pick they correct day and get the hight score to 
+        win the game!
+        </p>
         <button type="button" id="push-me">Click Me!</button>
-
     </div>
+    <div id="timer">timer</div>
     <div id="game-screen" class="hidden">
-        <h3 id="question">what day comes after today</h3>
-        <button id="answer-one"></button>
-        <button id="answer-two"></button>
-        <button id="answer-three"></button>
-        <button id="answer-four"></button>
-    </div>
+        <h2 id="countdown"></h<2> 
+        <h3 id ="question"></h3>
+        <p id="answer1"></p>
+        <p id="answer2"></p>
+        <p id="answer3"></p>
+        <p id="answer4"></p>
+
+        
+    </div> 
+
+   
     <div id="quiz-over" class="hidden">
         <h4>Quiz over</h4>
+        <var id ="timer" class= "stop">
         <input type="text" id="high-score" />
         <button id="submit-button">submit</button>
     </div>
